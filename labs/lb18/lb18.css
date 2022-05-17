@@ -1,0 +1,32 @@
+*{
+  box-sizing:border-box;
+}
+
+#box{
+  color:black;
+  padding:5px;
+  border:solid;
+  border-color:white;
+  border-width:10px;
+  background-color:lightcoral;
+  width:400px;
+  height:400px;
+  position:relative;
+left:450px;
+}
+
+button{
+  margin:10px;
+  color:lightcoral;
+  padding:4;
+  border:solid white 3px;
+  background-color:lightblue;
+  position:relative;
+  left:425px;
+}
+
+button:hover{
+  color:lightblue;
+  background-color:lightcoral;
+}
+

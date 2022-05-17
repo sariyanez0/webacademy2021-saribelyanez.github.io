@@ -1,0 +1,115 @@
+body{
+  background-color: #16381f;
+}
+*{
+  box-sizing: border-box;
+}
+.column{
+  float: right;
+  width:33.33%;
+  padding:15px;
+}
+/* In the body you are changing the background color to lavender and the color of the text to a blue color */
+body{
+  text-align: left;
+  color: #9ed9ad;
+}
+/* Style of the header */
+.header{
+  background-color: #dbf1e1;
+  padding: 20px;
+  text-align: left;
+  color:  #8fd3a0;
+}
+.topnav{
+  background-color: #a4dbb2;
+  overflow: hidden;
+}
+
+.topnav a{
+  color: #2F4B26;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.topnav a:hover{
+  background-color:#A1CF6B;
+  color: #2F4B26;
+}
+
+
+
+
+
+#navlist {
+  position: relative;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li, #navlist a {
+  height: 45px;
+  display: block;
+}
+
+#home {
+  left: 0px;
+  width: 45px;
+  background: url('house (1).png')  -47px 0;
+}
+
+#prev {
+  left: 63px;
+  width: 45px;
+  background: url('right-arrow-256x256 (1).png') 0px 0;
+}
+
+#next {
+  left: 129px;
+  width: 45px;
+  background: url('right-arrow-256x256 (1).png') -91px 0;
+}
+/*page 2 naviagtion list*/
+#home2 {
+  left: 0px;
+  width: 45px;
+  background: url('house (1).png')  -47px 0;
+}
+
+
+
+#next2 {
+  left: 63px;
+  width: 45px;
+  background: url('right-arrow-256x256 (1).png') 0px 0;
+}
+
+/*page 3 naviagtion list*/
+#home3 {
+  left: 63px;
+  width: 45px;
+  background: url('house (1).png')  0px 0;
+}
+
+#prev3 {
+  left: 0px;
+  width: 45px;
+  background: url('left-arrow-256x256.png') -47px 0;
+}
+
+h1{
+  text-align:center;
+  font-size:90px;
+  color:#8fd3a0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+

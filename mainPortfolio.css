@@ -1,0 +1,191 @@
+/* You are putting a box around the links */
+*{
+  box-sizing: border-box;
+}
+/* In the body you are changing the background color to lavender and the color of the text to a blue color */
+body{
+  background-color: lightblue;
+  text-align: left;
+  color: cornflowerblue;
+}
+/* Style of the header */
+.header{
+  background-color: rgb(195, 217, 226);
+  padding: 20px;
+  text-align: left;
+  color: rgb(80, 82, 83);
+}
+/* Style of the navigation bar*/
+.topnav{
+  background-color: rgb(195, 217, 226);
+  overflow: hidden;
+}
+
+.topnav a{
+  color: rgb(80, 82, 83);
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.topnav a:hover{
+  background-color: #ddd;
+  color: midnightblue;
+}
+
+/*Creates 3 equal colums that float next to eachother*/
+.column{
+  float: right;
+  width:33.33%;
+  padding:15px;
+}
+/*
+div {
+  border-style: solid;
+  border-color: lightcyan;
+}
+*/
+div2 {
+ border-style: solid;
+ border-color: lightcyan;
+ border-width: 3px;
+ width: 33.33%;
+ height: 200px;
+ box-sizing: border-box;
+}
+
+ h1, h2, h3, h4, h5{
+  color: rgb(84, 114, 197);
+}
+
+.column2{
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+div3 {
+  border-style:solid;
+  border-color: lightcyan;
+}
+
+.column3{
+  float:right;
+  width:50%;
+  padding: 10px ;
+}
+
+//Lab 11 Code//
+#island{
+  width:500px;
+  height:500px;
+}
+
+#chest{
+  width:100px;
+  height:100px;
+  position:absolute;
+  left:85%;
+  top:110%;
+  z-index:1;
+}
+
+.coin1{
+  width:75px;
+  height:50px;
+  position:absolute;
+  left:85%;
+  top:115%;
+  z-index:1;
+  visibility: visible;
+  }
+
+.coin1:hover{
+  visibility:hidden;
+}
+
+.luck{
+  width:75px;
+  position: absolute;
+left:80%;
+top:110;
+visibility: hidden;
+}
+.luck:hover{
+  visibility: visible;
+}
+
+.coin2{
+  width:50px;
+  height:65px;
+  position:absolute;
+  left:1200px;
+  top:800px;
+ visibility: visible;
+}
+
+.coin2:hover{
+visibility: hidden;
+}
+
+.bee{
+  width:45px;
+  height:45px;
+  position:absolute;
+  left:200px;
+  top:220px;
+  z-index:1;
+}
+img.bee:hover{
+  visibility:hidden;
+}
+
+.bee2{
+  width:45px;
+  height:45px;
+  position:absolute;
+  left:300px;
+  top:300px;
+  z-index:1;
+}
+img.bee2:hover{
+  visibility:hidden;
+}
+
+#garden{
+  width:500px;
+  height:500px;
+}
+
+#lb_11{
+  border: gray solid 10px;
+  width: 500px;
+  height: 500px;
+  padding:3px;
+  position:absolute;
+  margin: 5px;
+  overflow:hidden;
+}
+
+.column5{
+  float: right;
+  width:500px;
+  height:500px;
+  padding:5px;
+  border: gray solid 10px;
+}
+//Lab 11 code//
+
+*{
+  box-sizing:border-box;
+}
+
+#number{
+  background-color: lightcoral;
+  color: white;
+  padding: 5px;
+  margin:2px;
+  text-align:left;
+  
+}

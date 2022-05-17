@@ -1,0 +1,30 @@
+
+
+h1{
+ color: white;  
+}
+
+.button-property{
+color: white;  
+
+}
+
+.center{
+  text-align:center;
+  
+}
+
+body {
+  text-align:center;
+  background-color: gray;
+}
+
+button {
+  background-color: lightblue;
+  text-align: center;
+}
+
+p{
+  color:white;
+  text-align:center;
+}

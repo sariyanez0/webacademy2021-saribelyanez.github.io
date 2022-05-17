@@ -1,0 +1,82 @@
+/*The container <div> is needed to position the dropdown content*/
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+/*Dropdown content (hidden by defult)*/
+
+.dropDownContent{
+  display:none;
+  position: absolute;
+  background-color: lavender;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
+  padding: 12px 16px;
+  z-index:1;
+  color: rgb(151, 151, 151);
+  text-decoration: none;
+}
+
+.dropdown:hover .dropDownContent{
+  display:block;
+}
+
+/*Style the dropdown button*/
+.drpMenu {
+  background-color: rgb(84, 114, 197);
+  padding: 16px;
+  margin:10px;
+  color: rgb(195, 217, 226);
+  font-size:16px;
+  border:none;
+  cursor: pointer;
+}
+
+/*Change the background of the dropdown button when the dropdown content is shown*/
+.dropdown:hover .drpMenu{
+background-color: rgb(195, 217, 226);
+color: rgb(84, 114, 197);
+}
+
+/*Links inside the dropdown*/
+.dropdown a{
+background-color: rgb(84, 114, 197);
+border:1px solid rgb(195, 217, 226);
+color: black;
+padding:12px 16px;
+text-decoration: none;
+display:none;
+}
+/*Allows you to see the hyperlinks when you hover on the drop down menu button*/
+.dropdown:hover a{
+  display: block;
+  background-color: whitesmoke;
+  color:rgb(84, 114, 197);
+  border:0.1px solid rgb(195, 217, 226);
+}
+
+.dropdown:hover a:hover{
+background-color: rgb(84, 114, 197);
+border:1px solid rgb(195, 217, 226);
+color: rgb(195, 217, 226);
+padding:12px 16px;
+text-decoration: none;
+}
+
+
+
+.dropdown img{
+  border:10px dotted whitesmoke;
+}
+
+.caption{
+  display: none;
+}
+
+
+.dropDownContent:hover .caption{
+  display: block;
+  color: rgb(84, 114, 197);
+  background-color: whitesmoke;
+}
+

@@ -1,0 +1,152 @@
+/* The [*] character applys to all the tags in the html*/
+*{
+  margin: 0;
+  padding:0;
+  boz-sizing:border-box;
+  font-family:"Helvetica", sabs-serif;
+}
+/* Applies style to the body*/
+body {
+  background-color:#483D3F;
+  height:100vh;
+  width:100vw;
+  display:block;
+  position: relative;
+}
+/* Applies certain style to anytging in the class wrapper*/
+.wrapper{
+  display:block;
+  background-color: #086375;
+  width:600px;
+  height:610px;
+  position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding: 1em;
+padding-top: 6.5em;
+outline: #483D3F solid 8px;
+outline-offset: -17px;
+overflow:hidden;
+}
+
+/* Applies style to anything in the class section_userform*/
+.section_userform{
+  width:75%;
+  display:block;
+  margin:0 auto;
+  color:#90C7CB;
+}
+
+/* Applies style to anything in the class input_label*/
+.input_label{
+  width:35%;
+  text-align:right;
+display:inline-block;
+  font-size:1.5em;
+  color:#90C7CB;
+}
+
+/* Applies style to anything in the class break*/
+.break{
+  display:block;
+  width:100%;
+  margin:2em 0;
+}
+
+/* Applies style to anything in the class textbox*/
+.textbox{
+  width:50%;
+  height:1.8em;
+  box-sizing: content-box;
+  background-color: #483D3F;
+  border-color: #90C7CB;
+  padding-left: 1em;
+  color:#90C7CB;
+}
+
+/* Applies style to anything in the class button*/
+.button{
+  display:block;
+  margin:none;
+margin-top: 2em;
+  padding:0.5em 2.5em;
+  text-transform:uppercase;
+  background-color:#483D3F;
+  border-color: #90C7CB;
+  font-size:1.3em;
+  border-width:4px;
+  border-radius:3px;
+  border-style:solid;
+  color:#90C7CB;
+ transition: all ease-in-out 200ms;
+}
+
+/* Applies style to anything in the class button:hover*/
+.button:hover{
+  background-color: #90C7CB;
+  color:#483D3F;
+  border-color: #483D3F;
+  transform:scale(1.05);
+}
+
+/* Applies style to anything in the class buttonWrapper*/
+.buttonWrapper {
+  display:grid;
+  justify-content:center;
+}
+
+/* Applies style to anything in the class section_info*/
+.section_info{
+  text-align:center;
+  margin-: 1em;
+  color: #90C7CB;
+}
+
+/* Applies style to anything in the class section_info h1*/
+.section_info h1{
+  font-size:5em;
+}
+
+/* Applies style to anything in the ID line*/
+#line{
+  border-color: #90C7CB;
+  width:80%;
+margin: 0 auto;
+  margin-bottom:4em;
+}
+
+/* Applies style to anything in the class results*/
+.results{
+  width:45%;
+  text-align:left;
+  display:inline-block;
+  font-size:1.5em;
+  color-font:#90C7CB;
+  
+}
+
+/* Applies style to anything in the class result_label*/
+.result_label{
+  width:40%;
+  text-align:right;
+  display:inline-block;
+  font-size:1.5em;
+  color: #90C7CB;
+  
+}
+/* shows the before screen*/
+#before{
+	opacity: 1;
+	display:block;
+}
+
+/*has the ID after hidden*/
+#after{
+	display:none;
+	opacity:0;
+}
+/*puts a margin in the top of 4em*/			
+#goBack {
+	margin-top: 4em;
+			}

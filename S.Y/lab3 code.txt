@@ -1,0 +1,45 @@
+<!--Doctype HTML-->
+<htlm>
+<head>
+	<title> Lab 3</title>
+</head>
+<body>
+
+<h1>Thomas A. Edison CTE HS</h1>
+<h2>Web Developer Academy</h2>
+<h3>10th Grade</h3>
+<h4>Lab 3</h4>
+<h5>Hyper Links</h5>
+<h6>By S.Yanez</h6>
+<br>
+<center>
+<a href="https://www.taehs.org/">
+<h4>My High School</h4>
+</a>
+
+<a href="https://www.taehs.org/">
+<img src="TAEHS.jpg" alt="My High School" width="150px">
+</a>
+<br>
+<a herf="https://www.w3schools.com/">
+<h4> W3Schools</h4>
+</a>
+
+<a herf="https://www.w3schools.com/">
+<img src="w3school.jpg" alt="w3schools" width="150px">
+</a>
+<br>
+
+<a herf="https://www.linkedin.com/">
+<h4> LinkedIn</h4>
+</a>
+
+<a herf="https://www.linkedin.com/">
+<img src="linkedin.jpg" alt="LinkedIn" width="150px"
+</a>
+<br>
+
+</center>
+
+</body>
+</html>

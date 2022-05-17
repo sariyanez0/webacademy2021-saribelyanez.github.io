@@ -1,0 +1,118 @@
+li{
+  text-align:center;
+  color:#868B8E;
+}
+
+h1, h3, h5, h6{
+  text-align:center;
+  color:#868B8E;
+}
+
+body{
+  font: 15px Arial, sans-serif;
+  background-color: #E7D2CC
+}
+
+hr {
+  height:3px;
+  border-width:0;
+  background-color:#EEEDE7;
+}
+img{
+  position:relative;
+  left: 38.7%;
+}
+
+*{
+  border-box:box-sizing;
+}
+
+#bottom{
+  background-color:#EEEDE7;
+}
+
+.header1{
+  background-color:#EEEDE7;
+  overflow: hidden;
+}
+
+.header1 li{
+  color: #868B8E;
+  
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px
+}
+
+.header1 li:hover{
+  background-color: #868B8E;
+  color: #EEEDE7;
+}
+
+/*The container <div> is needed to position the dropdown content*/
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+/*Dropdown content (hidden by defult)*/
+
+.dropDownContent{
+  display:none;
+  position: absolute;
+  background-color: #EEEDE7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
+  padding: 12px 16px;
+  z-index:1;
+  color: #868B8E;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropDownContent{
+  display:block;
+}
+
+/*Style the dropdown button*/
+.drpMenu {
+  background-color: #EEEDE7;
+  padding: 16px;
+  margin:10px;
+  color: #868B8E;
+  font-size:16px;
+  border:none;
+  cursor: pointer;
+}
+
+/*Change the background of the dropdown button when the dropdown content is shown*/
+.dropdown:hover .drpMenu{
+background-color: #868B8E;
+color: #EEEDE7;
+}
+
+/*Links inside the dropdown*/
+.dropdown a{
+background-color: #EEEDE7;
+border:1px solid #E7D2CC
+color: black;
+padding:12px 16px;
+text-decoration: none;
+display:none;
+}
+/*Allows you to see the hyperlinks when you hover on the drop down menu button*/
+.dropdown:hover a{
+  display: block;
+  background-color: #868B8E;
+  color:#EEEDE7;
+  border:0.1px solid #E7D2CC
+}
+
+.dropdown:hover a:hover{
+background-color: #E7D2CC;
+border:1px solid #E7D2CC;
+color: #868B8E;
+padding:12px 16px;
+text-decoration: none;
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar */
