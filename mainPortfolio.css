@@ -3,6 +3,9 @@
   box-sizing: border-box;
 }
 /* In the body you are changing the background color to lavender and the color of the text to a blue color */
+.fake{
+  color:lightblue;
+}
 body{
   background-color: lightblue;
   text-align: left;
